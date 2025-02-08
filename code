@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // Define a class named Car
 public class Car {
     // Fields (attributes) of the class
@@ -64,3 +65,8 @@ public class Car {
     }
 }
 
+=======
+ 
+hello myworld 
+hi how are you ?
+>>>>>>> Stashed changes
