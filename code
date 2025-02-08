@@ -1,1 +1,66 @@
-hi how are you ?
+// Define a class named Car
+public class Car {
+    // Fields (attributes) of the class
+    private String model;
+    private int year;
+    private String color;
+
+    // Constructor to initialize the Car object
+    public Car(String model, int year, String color) {
+        this.model = model;
+        this.year = year;
+        this.color = color;
+    }
+
+    // Getter for model
+    public String getModel() {
+        return model;
+    }
+
+    // Setter for model
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    // Getter for year
+    public int getYear() {
+        return year;
+    }
+
+    // Setter for year
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    // Getter for color
+    public String getColor() {
+        return color;
+    }
+
+    // Setter for color
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    // Method to display car details
+    public void displayCarInfo() {
+        System.out.println("Car Model: " + model);
+        System.out.println("Car Year: " + year);
+        System.out.println("Car Color: " + color);
+    }
+
+    // Main method to run the code
+    public static void main(String[] args) {
+        // Create a new Car object
+        Car myCar = new Car("Tesla Model S", 2023, "Red");
+        
+        // Display the details of the car
+        myCar.displayCarInfo();
+        
+        // Change car color and display updated info
+        myCar.setColor("Blue");
+        System.out.println("\nUpdated Car Info:");
+        myCar.displayCarInfo();
+    }
+}
+
